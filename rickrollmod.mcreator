@@ -1,0 +1,55 @@
+{
+  "mod_elements": [
+    {
+      "name": "RickrolledCommandExecuted",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rickrolled_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rickrolled",
+      "type": "command",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rickrolled"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "rickrollmod",
+    "modName": "RickrollMod",
+    "version": "1.0.0",
+    "author": "huynguyen, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.zushgaming.rickroll",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}
